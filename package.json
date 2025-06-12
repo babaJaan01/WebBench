@@ -1,0 +1,37 @@
+{
+  "name": "webbench",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "@supabase/supabase-js": "^2.49.10",
+    "gl-matrix": "^3.4.3",
+    "glin-profanity": "^2.1.0",
+    "next": "15.3.3",
+    "prisma": "^6.9.0",
+    "random": "^5.4.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "ts-shader-loader": "^2.0.2",
+    "webpack": "^5.99.9"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.17.57",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@webgpu/types": "^0.1.61",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "raw-loader": "^4.0.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
