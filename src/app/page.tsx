@@ -17,7 +17,7 @@ export default function Home() {
           </p>
           
           <Link 
-            href="/run" 
+            href="/compute" 
             className="px-8 py-3 text-lg font-medium rounded-full bg-gradient-to-bl bg-gray-950 text-slate-200 transition-all shadow-lg transform border border-transparent hover:border-white hover:border-2">
             Start Benchmark
           </Link>
